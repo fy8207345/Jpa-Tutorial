@@ -10,6 +10,7 @@
     <version>1.0.0</version>
     <modules>
         <module>kickstart-01</module>
+        <module>entities-02</module>
     </modules>
 
     <dependencyManagement>
