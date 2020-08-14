@@ -6,12 +6,11 @@ import javax.persistence.*;
 
 @Data
 @Entity
-@Table(name = "exampleTable")
 public class MyEntity {
 
     @Id
     @Column(name = "example_id")
-    private String id;
+    private Integer id;
 
     @Column(name = "example_string")
     private String myString;
